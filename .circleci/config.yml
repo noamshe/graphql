@@ -33,6 +33,9 @@ jobs:
       - run:
           name: run server bla
           command: npm start
+      - run:
+          name: my deploy
+          command: deploy.sh
 
       - save_cache:
           paths:
