@@ -30,9 +30,6 @@ jobs:
           name: Install bla
           command: npm install
       - run:
-          name: run server bla
-          command: npm start
-      - run:
           name: my deploy
           command: deploy.sh
 
